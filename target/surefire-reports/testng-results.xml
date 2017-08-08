@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[2017-08-08 16:35:52 : [INFO] 连接appium服务器]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-08 16:36:19 : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etPhone]]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-08 16:36:25 : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etVerify]]]>
+    </line>
+    <line>
+      <![CDATA[2017-08-08 16:36:31 : [INFO] [点击 -> id: com.icarbonx.meum:id/btn_login]]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="46747" started-at="2017-08-08T08:35:52Z" finished-at="2017-08-08T08:36:39Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="46747" started-at="2017-08-08T08:35:52Z" finished-at="2017-08-08T08:36:39Z">
+      <class name="com.icarbonx.testcase.LoginTestCase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icarbonx.testcase.LoginTestCase@51081592]" name="setUp" is-config="true" duration-ms="22514" started-at="2017-08-08T16:35:52Z" finished-at="2017-08-08T16:36:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2017-08-08 16:35:52 : [INFO] 连接appium服务器]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.icarbonx.testcase.LoginTestCase@51081592]" name="login" duration-ms="17576" started-at="2017-08-08T16:36:14Z" finished-at="2017-08-08T16:36:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2017-08-08 16:36:19 : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etPhone]]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-08 16:36:25 : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etVerify]]]>
+            </line>
+            <line>
+              <![CDATA[2017-08-08 16:36:31 : [INFO] [点击 -> id: com.icarbonx.meum:id/btn_login]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:com.icarbonx.testcase.LoginTestCase@51081592]" name="tearUp" is-config="true" duration-ms="6645" started-at="2017-08-08T16:36:32Z" finished-at="2017-08-08T16:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+      </class> <!-- com.icarbonx.testcase.LoginTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
