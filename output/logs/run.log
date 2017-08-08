@@ -11,3 +11,7 @@
 2017-08-08 16:36:19 dev_log : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etPhone]
 2017-08-08 16:36:25 dev_log : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etVerify]
 2017-08-08 16:36:31 dev_log : [INFO] [点击 -> id: com.icarbonx.meum:id/btn_login]
+2017-08-08 16:47:11 dev_log : [INFO] 连接appium服务器
+2017-08-08 16:47:49 dev_log : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etPhone]
+2017-08-08 16:47:55 dev_log : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etVerify]
+2017-08-08 16:48:00 dev_log : [INFO] [点击 -> id: com.icarbonx.meum:id/btn_login]
