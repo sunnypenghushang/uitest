@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[2017-08-08 16:32:06 : [INFO] 连接appium服务器]]>
+      <![CDATA[2017-08-08 18:12:32 : [INFO] 连接appium服务器]]>
     </line>
     <line>
-      <![CDATA[2017-08-08 16:32:34 : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etPhone]]]>
+      <![CDATA[2017-08-08 18:13:07 : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etPhone]]]>
     </line>
     <line>
-      <![CDATA[2017-08-08 16:32:40 : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etVerify]]]>
+      <![CDATA[2017-08-08 18:13:12 : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etVerify]]]>
     </line>
     <line>
-      <![CDATA[2017-08-08 16:32:45 : [INFO] [点击 -> id: com.icarbonx.meum:id/btn_login]]]>
+      <![CDATA[2017-08-08 18:13:18 : [INFO] [点击 -> id: com.icarbonx.meum:id/btn_login]]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="47557" started-at="2017-08-08T08:32:06Z" finished-at="2017-08-08T08:32:53Z">
+  <suite name="Suite" duration-ms="54419" started-at="2017-08-08T10:12:31Z" finished-at="2017-08-08T10:13:26Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="47557" started-at="2017-08-08T08:32:06Z" finished-at="2017-08-08T08:32:53Z">
+    <test name="Test" duration-ms="54419" started-at="2017-08-08T10:12:31Z" finished-at="2017-08-08T10:13:26Z">
       <class name="com.icarbonx.testcase.LoginTestCase">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icarbonx.testcase.LoginTestCase@527740a2]" name="setUp" is-config="true" duration-ms="21997" started-at="2017-08-08T16:32:06Z" finished-at="2017-08-08T16:32:28Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.icarbonx.testcase.LoginTestCase@527740a2]" name="setUp" is-config="true" duration-ms="31742" started-at="2017-08-08T18:12:31Z" finished-at="2017-08-08T18:13:03Z">
           <reporter-output>
             <line>
-              <![CDATA[2017-08-08 16:32:06 : [INFO] 连接appium服务器]]>
+              <![CDATA[2017-08-08 18:12:32 : [INFO] 连接appium服务器]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.icarbonx.testcase.LoginTestCase@527740a2]" name="login" duration-ms="19108" started-at="2017-08-08T16:32:28Z" finished-at="2017-08-08T16:32:47Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.icarbonx.testcase.LoginTestCase@527740a2]" name="login" duration-ms="15955" started-at="2017-08-08T18:13:03Z" finished-at="2017-08-08T18:13:19Z">
           <reporter-output>
             <line>
-              <![CDATA[2017-08-08 16:32:34 : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etPhone]]]>
+              <![CDATA[2017-08-08 18:13:07 : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etPhone]]]>
             </line>
             <line>
-              <![CDATA[2017-08-08 16:32:40 : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etVerify]]]>
+              <![CDATA[2017-08-08 18:13:12 : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etVerify]]]>
             </line>
             <line>
-              <![CDATA[2017-08-08 16:32:45 : [INFO] [点击 -> id: com.icarbonx.meum:id/btn_login]]]>
+              <![CDATA[2017-08-08 18:13:18 : [INFO] [点击 -> id: com.icarbonx.meum:id/btn_login]]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="tearUp()[pri:0, instance:com.icarbonx.testcase.LoginTestCase@527740a2]" name="tearUp" is-config="true" duration-ms="6435" started-at="2017-08-08T16:32:47Z" finished-at="2017-08-08T16:32:53Z">
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:com.icarbonx.testcase.LoginTestCase@527740a2]" name="tearUp" is-config="true" duration-ms="6711" started-at="2017-08-08T18:13:19Z" finished-at="2017-08-08T18:13:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
