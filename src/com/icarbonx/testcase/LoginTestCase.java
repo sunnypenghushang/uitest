@@ -21,7 +21,11 @@ import com.icarbonx.page.LoginPage;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 
-
+/**
+ * 登录页测试用例
+ * @author Administrator
+ *
+ */
 public class LoginTestCase extends BaseTestCase{
 	AndroidDriver<AndroidElement> driver;
 

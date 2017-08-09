@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 51.386 sec - in TestSuite
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 83.857 sec <<< FAILURE! - in TestSuite
+login(com.icarbonx.testcase.LoginTestCase)  Time elapsed: 41.223 sec  <<< FAILURE!
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at com.icarbonx.testcase.LoginTestCase.login(LoginTestCase.java:42)
+
