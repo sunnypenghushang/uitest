@@ -55,6 +55,12 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		
+		<resources>
+		<resource>
+		<directory>src/config</directory>
+		</resource>
+		</resources>
 	</build>
 
 	<dependencies>
