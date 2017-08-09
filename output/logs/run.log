@@ -1,27 +1,4 @@
-2017-08-08 16:20:57 dev_log : [INFO] è¿žæŽ¥appiumæœåŠ¡å™¨
-2017-08-08 16:22:37 dev_log : [INFO] è¿žæŽ¥appiumæœåŠ¡å™¨
-2017-08-08 16:28:42 dev_log : [INFO] è¿žæŽ¥appiumæœåŠ¡å™¨
-2017-08-08 16:29:27 dev_log : [INFO] è¿žæŽ¥appiumæœåŠ¡å™¨
-2017-08-08 16:30:30 dev_log : [INFO] è¿žæŽ¥appiumæœåŠ¡å™¨
-2017-08-08 16:32:06 dev_log : [INFO] è¿žæŽ¥appiumæœåŠ¡å™¨
-2017-08-08 16:32:34 dev_log : [INFO] [è¾“å…¥å­—ç¬¦ -> id: com.icarbonx.meum:id/etPhone]
-2017-08-08 16:32:40 dev_log : [INFO] [è¾“å…¥å­—ç¬¦ -> id: com.icarbonx.meum:id/etVerify]
-2017-08-08 16:32:45 dev_log : [INFO] [ç‚¹å‡» -> id: com.icarbonx.meum:id/btn_login]
-2017-08-08 16:35:52 dev_log : [INFO] Á¬½Óappium·þÎñÆ÷
-2017-08-08 16:36:19 dev_log : [INFO] [ÊäÈë×Ö·û -> id: com.icarbonx.meum:id/etPhone]
-2017-08-08 16:36:25 dev_log : [INFO] [ÊäÈë×Ö·û -> id: com.icarbonx.meum:id/etVerify]
-2017-08-08 16:36:31 dev_log : [INFO] [µã»÷ -> id: com.icarbonx.meum:id/btn_login]
-2017-08-08 16:47:11 dev_log : [INFO] Á¬½Óappium·þÎñÆ÷
-2017-08-08 16:47:49 dev_log : [INFO] [ÊäÈë×Ö·û -> id: com.icarbonx.meum:id/etPhone]
-2017-08-08 16:47:55 dev_log : [INFO] [ÊäÈë×Ö·û -> id: com.icarbonx.meum:id/etVerify]
-2017-08-08 16:48:00 dev_log : [INFO] [µã»÷ -> id: com.icarbonx.meum:id/btn_login]
-2017-08-08 17:05:32 dev_log : [INFO] Á¬½Óappium·þÎñÆ÷
-2017-08-08 18:11:47 dev_log : [INFO] è¿žæŽ¥appiumæœåŠ¡å™¨
-2017-08-08 18:12:32 dev_log : [INFO] è¿žæŽ¥appiumæœåŠ¡å™¨
-2017-08-08 18:13:07 dev_log : [INFO] [è¾“å…¥å­—ç¬¦ -> id: com.icarbonx.meum:id/etPhone]
-2017-08-08 18:13:12 dev_log : [INFO] [è¾“å…¥å­—ç¬¦ -> id: com.icarbonx.meum:id/etVerify]
-2017-08-08 18:13:18 dev_log : [INFO] [ç‚¹å‡» -> id: com.icarbonx.meum:id/btn_login]
-2017-08-08 18:13:40 dev_log : [INFO] Á¬½Óappium·þÎñÆ÷
-2017-08-08 18:14:22 dev_log : [INFO] [ÊäÈë×Ö·û -> id: com.icarbonx.meum:id/etPhone]
-2017-08-08 18:14:29 dev_log : [INFO] [ÊäÈë×Ö·û -> id: com.icarbonx.meum:id/etVerify]
-2017-08-08 18:14:34 dev_log : [INFO] [µã»÷ -> id: com.icarbonx.meum:id/btn_login]
+2017-08-09 10:31:06 dev_log : [INFO] Á¬½Óappium·þÎñÆ÷
+2017-08-09 10:31:37 dev_log : [INFO] [ÊäÈë×Ö·û -> id: com.icarbonx.meum:id/etPhone]
+2017-08-09 10:31:43 dev_log : [INFO] [ÊäÈë×Ö·û -> id: com.icarbonx.meum:id/etVerify]
+2017-08-09 10:31:48 dev_log : [INFO] [µã»÷ -> id: com.icarbonx.meum:id/btn_login]
