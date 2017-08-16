@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Aug 08 18:12:31 CST 2017</td>
+<td>Started on:</td><td>Wed Aug 16 14:17:40 CST 2017</td>
 </tr>
-<tr><td>Total time:</td><td>54 seconds (54419 ms)</td>
+<tr><td>Total time:</td><td>56 seconds (56961 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -76,18 +76,148 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.icarbonx.testcase.LoginTestCase.login()'><b>login</b><br>Test class: com.icarbonx.testcase.LoginTestCase<br/>
-<a href="#Output-1850954068" onClick='toggleBox("Output-1850954068", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-105321150" onClick='toggleBox("Output-105321150", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1850954068" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1850954068">
-2017-08-08 18:13:07 : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etPhone]<br/>
-2017-08-08 18:13:12 : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etVerify]<br/>
-2017-08-08 18:13:18 : [INFO] [点击 -> id: com.icarbonx.meum:id/btn_login]<br/>
+<a href="#Output-105321150" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-105321150">
+2017-08-16 14:18:06 : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etPhone]<br/>
+2017-08-16 14:18:06 : [INFO] 输入之前控制字符为:输入手机号<br/>
+2017-08-16 14:18:11 : [INFO] 输入之后控制字符为:130 8888 4762<br/>
+2017-08-16 14:18:12 : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etVerify]<br/>
+2017-08-16 14:18:12 : [INFO] 输入之前控制字符为:获取验证码<br/>
+2017-08-16 14:18:17 : [INFO] 输入之后控制字符为:8888<br/>
+2017-08-16 14:18:17 : [INFO] [点击 -> id: com.icarbonx.meum:id/btn_login]<br/>
+2017-08-16 14:18:17 : [INFO] 准备点击 登 录<br/>
 </div>
 </td>
-<td></td>
-<td>15</td>
-<td>com.icarbonx.testcase.LoginTestCase@527740a2</td></tr>
+<td><div><pre>java.lang.reflect.UndeclaredThrowableException
+	at com.sun.proxy.$Proxy25.afterClickOn(Unknown Source)
+	at io.appium.java_client.events.DefaultListener.afterClickOn(DefaultListener.java:104)
+	at io.appium.java_client.events.DefaultAspect.afterClickOn(DefaultAspect.java:309)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:611)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:50)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:656)
+	at io.appium.java_client.android.AndroidElement$$EnhancerBySpringCGLIB$$47ac27.click(&lt;generated&gt;)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy28.click(Unknown Source)
+	at com.icarbonx.uiautoutils.Operate.click(Operate.java:366)
+	at com.icarbonx.page.LoginPage.login(LoginPage.java:36)
+	at com.icarbonx.testcase.LoginTestCase.login(LoginTestCase.java:47)
+	at io.appium.java_client.events.ListenerInvocationHandler.invoke(ListenerInvocationHandler.java:46)
+	... 49 more
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12.30 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;2016-20170509XS&apos;, ip: &apos;10.0.66.176&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.icarbonx.meum, noReset=true, deviceName=CQG64DOJCUBAV86S, platform=LINUX, deviceUDID=CQG64DOJCUBAV86S, desired={appPackage=com.icarbonx.meum, setWebContentsDebuggingEnabled=True, noReset=true, noSign=true, deviceName=Android Emulator, appActivity=.module.main.MainActivity, browserName=, unicodeKeyboard=true, sessionOverride=true, platformName=Android, udid=CQG64DOJCUBAV86S, device=Selendroid, resetKeyboard=true}, platformVersion=6.0, webStorageEnabled=false, takesScreenshot=true, browserName=, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, udid=CQG64DOJCUBAV86S, deviceManufacturer=vivo, resetKeyboard=true, deviceScreenSize=720x1280, networkConnectionEnabled=true, setWebContentsDebuggingEnabled=True, noSign=true, warnings={}, databaseEnabled=false, appActivity=.module.main.MainActivity, locationContextEnabled=false, deviceModel=vivo Y67, sessionOverride=true, device=Selendroid}]
+Session ID: a367b480-f4ac-4516-9db1-0590137c1483
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:158)
+	at com.icarbonx.eventlistener.ElementListener.splitElementText(ElementListener.java:50)
+	at com.icarbonx.eventlistener.ElementListener.afterClickOn(ElementListener.java:20)
+	... 54 more
+... Removed 42 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace105321150", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace105321150'><pre>java.lang.reflect.UndeclaredThrowableException
+	at com.sun.proxy.$Proxy25.afterClickOn(Unknown Source)
+	at io.appium.java_client.events.DefaultListener.afterClickOn(DefaultListener.java:104)
+	at io.appium.java_client.events.DefaultAspect.afterClickOn(DefaultAspect.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:611)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:50)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:656)
+	at io.appium.java_client.android.AndroidElement$$EnhancerBySpringCGLIB$$47ac27.click(&lt;generated&gt;)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy28.click(Unknown Source)
+	at com.icarbonx.uiautoutils.Operate.click(Operate.java:366)
+	at com.icarbonx.page.LoginPage.login(LoginPage.java:36)
+	at com.icarbonx.testcase.LoginTestCase.login(LoginTestCase.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.appium.java_client.events.ListenerInvocationHandler.invoke(ListenerInvocationHandler.java:46)
+	... 49 more
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12.30 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;2016-20170509XS&apos;, ip: &apos;10.0.66.176&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.icarbonx.meum, noReset=true, deviceName=CQG64DOJCUBAV86S, platform=LINUX, deviceUDID=CQG64DOJCUBAV86S, desired={appPackage=com.icarbonx.meum, setWebContentsDebuggingEnabled=True, noReset=true, noSign=true, deviceName=Android Emulator, appActivity=.module.main.MainActivity, browserName=, unicodeKeyboard=true, sessionOverride=true, platformName=Android, udid=CQG64DOJCUBAV86S, device=Selendroid, resetKeyboard=true}, platformVersion=6.0, webStorageEnabled=false, takesScreenshot=true, browserName=, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, udid=CQG64DOJCUBAV86S, deviceManufacturer=vivo, resetKeyboard=true, deviceScreenSize=720x1280, networkConnectionEnabled=true, setWebContentsDebuggingEnabled=True, noSign=true, warnings={}, databaseEnabled=false, appActivity=.module.main.MainActivity, locationContextEnabled=false, deviceModel=vivo Y67, sessionOverride=true, device=Selendroid}]
+Session ID: a367b480-f4ac-4516-9db1-0590137c1483
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:158)
+	at com.icarbonx.eventlistener.ElementListener.splitElementText(ElementListener.java:50)
+	at com.icarbonx.eventlistener.ElementListener.afterClickOn(ElementListener.java:20)
+	... 54 more
+</pre></div></td>
+<td>28</td>
+<td>com.icarbonx.testcase.LoginTestCase@3108bc</td></tr>
 </table><p>
 </body>
 </html>

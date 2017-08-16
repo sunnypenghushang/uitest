@@ -1,2 +1,43 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Suite</th></tr><tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">54,419</td><td></td><td></td></tr></table><table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.icarbonx.testcase.LoginTestCase</td><td><a href="#m0">login</a></td><td rowspan="1">1502187183702</td><td rowspan="1">15955</td></tr></tbody></table><h2>Test</h2><h3 id="m0">com.icarbonx.testcase.LoginTestCase#login</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">2017-08-08 18:13:07 : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etPhone]<br/>2017-08-08 18:13:12 : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etVerify]<br/>2017-08-08 18:13:18 : [INFO] [点击 -> id: com.icarbonx.meum:id/btn_login]</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Suite</th></tr><tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">56,961</td><td></td><td></td></tr></table><table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.icarbonx.testcase.LoginTestCase</td><td><a href="#m0">login</a></td><td rowspan="1">1502864282526</td><td rowspan="1">28057</td></tr></tbody></table><h2>Test</h2><h3 id="m0">com.icarbonx.testcase.LoginTestCase#login</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">2017-08-16 14:18:06 : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etPhone]<br/>2017-08-16 14:18:06 : [INFO] 输入之前控制字符为:输入手机号<br/>2017-08-16 14:18:11 : [INFO] 输入之后控制字符为:130 8888 4762<br/>2017-08-16 14:18:12 : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etVerify]<br/>2017-08-16 14:18:12 : [INFO] 输入之前控制字符为:获取验证码<br/>2017-08-16 14:18:17 : [INFO] 输入之后控制字符为:8888<br/>2017-08-16 14:18:17 : [INFO] [点击 -> id: com.icarbonx.meum:id/btn_login]<br/>2017-08-16 14:18:17 : [INFO] 准备点击 登 录</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.reflect.UndeclaredThrowableException
+	at com.sun.proxy.$Proxy25.afterClickOn(Unknown Source)
+	at io.appium.java_client.events.DefaultListener.afterClickOn(DefaultListener.java:104)
+	at io.appium.java_client.events.DefaultAspect.afterClickOn(DefaultAspect.java:309)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:611)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:50)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:656)
+	at io.appium.java_client.android.AndroidElement$$EnhancerBySpringCGLIB$$47ac27.click(&lt;generated&gt;)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy28.click(Unknown Source)
+	at com.icarbonx.uiautoutils.Operate.click(Operate.java:366)
+	at com.icarbonx.page.LoginPage.login(LoginPage.java:36)
+	at com.icarbonx.testcase.LoginTestCase.login(LoginTestCase.java:47)
+	at io.appium.java_client.events.ListenerInvocationHandler.invoke(ListenerInvocationHandler.java:46)
+	... 49 more
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12.30 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;2016-20170509XS&apos;, ip: &apos;10.0.66.176&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.icarbonx.meum, noReset=true, deviceName=CQG64DOJCUBAV86S, platform=LINUX, deviceUDID=CQG64DOJCUBAV86S, desired={appPackage=com.icarbonx.meum, setWebContentsDebuggingEnabled=True, noReset=true, noSign=true, deviceName=Android Emulator, appActivity=.module.main.MainActivity, browserName=, unicodeKeyboard=true, sessionOverride=true, platformName=Android, udid=CQG64DOJCUBAV86S, device=Selendroid, resetKeyboard=true}, platformVersion=6.0, webStorageEnabled=false, takesScreenshot=true, browserName=, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, udid=CQG64DOJCUBAV86S, deviceManufacturer=vivo, resetKeyboard=true, deviceScreenSize=720x1280, networkConnectionEnabled=true, setWebContentsDebuggingEnabled=True, noSign=true, warnings={}, databaseEnabled=false, appActivity=.module.main.MainActivity, locationContextEnabled=false, deviceModel=vivo Y67, sessionOverride=true, device=Selendroid}]
+Session ID: a367b480-f4ac-4516-9db1-0590137c1483
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:158)
+	at com.icarbonx.eventlistener.ElementListener.splitElementText(ElementListener.java:50)
+	at com.icarbonx.eventlistener.ElementListener.afterClickOn(ElementListener.java:20)
+	... 54 more
+... Removed 42 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

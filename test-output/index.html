@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Suite">
+                    <div class="method-list-content failed suite-Suite">
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.icarbonx.testcase.LoginTestCase" hash-for-method="login">login</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Suite -->
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,9 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.icarbonx.testcase.LoginTestCase</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -128,10 +128,53 @@
                   <a name="login">
                   </a> <!-- login -->
                   <span class="method-name">login</span>
+                  <div class="stack-trace">java.lang.reflect.UndeclaredThrowableException
+	at com.sun.proxy.$Proxy25.afterClickOn(Unknown Source)
+	at io.appium.java_client.events.DefaultListener.afterClickOn(DefaultListener.java:104)
+	at io.appium.java_client.events.DefaultAspect.afterClickOn(DefaultAspect.java:309)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:611)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:50)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:656)
+	at io.appium.java_client.android.AndroidElement$$EnhancerBySpringCGLIB$$47ac27.click(&lt;generated&gt;)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy28.click(Unknown Source)
+	at com.icarbonx.uiautoutils.Operate.click(Operate.java:366)
+	at com.icarbonx.page.LoginPage.login(LoginPage.java:36)
+	at com.icarbonx.testcase.LoginTestCase.login(LoginTestCase.java:47)
+	at io.appium.java_client.events.ListenerInvocationHandler.invoke(ListenerInvocationHandler.java:46)
+	... 49 more
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12.30 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;2016-20170509XS&apos;, ip: &apos;10.0.66.176&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.icarbonx.meum, noReset=true, deviceName=CQG64DOJCUBAV86S, platform=LINUX, deviceUDID=CQG64DOJCUBAV86S, desired={appPackage=com.icarbonx.meum, setWebContentsDebuggingEnabled=True, noReset=true, noSign=true, deviceName=Android Emulator, appActivity=.module.main.MainActivity, browserName=, unicodeKeyboard=true, sessionOverride=true, platformName=Android, udid=CQG64DOJCUBAV86S, device=Selendroid, resetKeyboard=true}, platformVersion=6.0, webStorageEnabled=false, takesScreenshot=true, browserName=, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, udid=CQG64DOJCUBAV86S, deviceManufacturer=vivo, resetKeyboard=true, deviceScreenSize=720x1280, networkConnectionEnabled=true, setWebContentsDebuggingEnabled=True, noSign=true, warnings={}, databaseEnabled=false, appActivity=.module.main.MainActivity, locationContextEnabled=false, deviceModel=vivo Y67, sessionOverride=true, device=Selendroid}]
+Session ID: a367b480-f4ac-4516-9db1-0590137c1483
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:158)
+	at com.icarbonx.eventlistener.ElementListener.splitElementText(ElementListener.java:50)
+	at com.icarbonx.eventlistener.ElementListener.afterClickOn(ElementListener.java:20)
+	... 54 more
+... Removed 42 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-failed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -188,12 +231,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'login')
 data.setCell(0, 2, 'com.icarbonx.testcase.LoginTestCase')
-data.setCell(0, 3, 15955);
+data.setCell(0, 3, 28057);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 28 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -207,9 +250,14 @@ return data;
             <div class="reporter-method-div">
               <span class="reporter-method-name">login</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">2017-08-08 18:13:07 : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etPhone]</span>
-                <span class="reporter-method-output">2017-08-08 18:13:12 : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etVerify]</span>
-                <span class="reporter-method-output">2017-08-08 18:13:18 : [INFO] [点击 -> id: com.icarbonx.meum:id/btn_login]</span>
+                <span class="reporter-method-output">2017-08-16 14:18:06 : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etPhone]</span>
+                <span class="reporter-method-output">2017-08-16 14:18:06 : [INFO] 输入之前控制字符为:输入手机号</span>
+                <span class="reporter-method-output">2017-08-16 14:18:11 : [INFO] 输入之后控制字符为:130 8888 4762</span>
+                <span class="reporter-method-output">2017-08-16 14:18:12 : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etVerify]</span>
+                <span class="reporter-method-output">2017-08-16 14:18:12 : [INFO] 输入之前控制字符为:获取验证码</span>
+                <span class="reporter-method-output">2017-08-16 14:18:17 : [INFO] 输入之后控制字符为:8888</span>
+                <span class="reporter-method-output">2017-08-16 14:18:17 : [INFO] [点击 -> id: com.icarbonx.meum:id/btn_login]</span>
+                <span class="reporter-method-output">2017-08-16 14:18:17 : [INFO] 准备点击 登 录</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -233,12 +281,14 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">login</span>
-                <span class="method-start">31749 ms</span>
+                <span class="method-start">22470 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearUp</span>
-                <span class="method-start">47705 ms</span>
+                <span class="method-start">50540 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
