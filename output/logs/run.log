@@ -1,10 +1,65 @@
-2017-08-09 10:31:06 dev_log : [INFO] ����appium������
-2017-08-09 10:31:37 dev_log : [INFO] [�����ַ� -> id: com.icarbonx.meum:id/etPhone]
-2017-08-09 10:31:43 dev_log : [INFO] [�����ַ� -> id: com.icarbonx.meum:id/etVerify]
-2017-08-09 10:31:48 dev_log : [INFO] [��� -> id: com.icarbonx.meum:id/btn_login]
-2017-08-09 10:57:27 dev_log : [INFO] ����appium������
-2017-08-09 10:59:35 dev_log : [INFO] ����appium������
-2017-08-09 11:19:38 dev_log : [INFO] ����appium������
-2017-08-09 11:20:05 dev_log : [INFO] [�����ַ� -> id: com.icarbonx.meum:id/etPhone]
-2017-08-09 11:20:10 dev_log : [INFO] [�����ַ� -> id: com.icarbonx.meum:id/etVerify]
-2017-08-09 11:20:16 dev_log : [INFO] [��� -> id: com.icarbonx.meum:id/btn_login]
+2017-08-16 11:34:56 dev_log : [INFO] 连接appium服务器
+2017-08-16 11:35:23 dev_log : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etPhone]
+2017-08-16 11:35:29 dev_log : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etVerify]
+2017-08-16 11:35:35 dev_log : [INFO] [点击 -> id: com.icarbonx.meum:id/btn_login]
+2017-08-16 11:35:35 dev_log : [INFO] 准备点击 id: com.icarbonx.meum:id/btn_login
+2017-08-16 11:35:35 dev_log : [INFO] 点击id: com.icarbonx.meum:id/btn_login
+2017-08-16 11:38:01 dev_log : [INFO] 连接appium服务器
+2017-08-16 11:38:25 dev_log : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etPhone]
+2017-08-16 11:38:25 dev_log : [INFO] 输入之前控制字符为:id: com.icarbonx.meum:id/etPhone
+2017-08-16 11:38:30 dev_log : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etVerify]
+2017-08-16 11:38:30 dev_log : [INFO] 输入之前控制字符为:id: com.icarbonx.meum:id/etVerify
+2017-08-16 11:38:36 dev_log : [INFO] [点击 -> id: com.icarbonx.meum:id/btn_login]
+2017-08-16 11:38:36 dev_log : [INFO] 准备点击 id: com.icarbonx.meum:id/btn_login
+2017-08-16 11:38:37 dev_log : [INFO] 点击id: com.icarbonx.meum:id/btn_login
+2017-08-16 11:40:29 dev_log : [INFO] 连接appium服务器
+2017-08-16 11:40:53 dev_log : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etPhone]
+2017-08-16 11:40:53 dev_log : [INFO] 输入之前控制字符为:输入手机号
+2017-08-16 11:40:59 dev_log : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etVerify]
+2017-08-16 11:40:59 dev_log : [INFO] 输入之前控制字符为:获取验证码
+2017-08-16 11:41:05 dev_log : [INFO] [点击 -> id: com.icarbonx.meum:id/btn_login]
+2017-08-16 11:41:05 dev_log : [INFO] 准备点击 登 录
+2017-08-16 11:42:20 dev_log : [INFO] 连接appium服务器
+2017-08-16 11:42:47 dev_log : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etPhone]
+2017-08-16 11:42:47 dev_log : [INFO] 输入之前控制字符为:输入手机号
+2017-08-16 11:42:53 dev_log : [INFO] 输入之后控制字符为:130 8888 4762
+2017-08-16 11:42:53 dev_log : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etVerify]
+2017-08-16 11:42:53 dev_log : [INFO] 输入之前控制字符为:获取验证码
+2017-08-16 11:42:59 dev_log : [INFO] 输入之后控制字符为:8888
+2017-08-16 11:42:59 dev_log : [INFO] [点击 -> id: com.icarbonx.meum:id/btn_login]
+2017-08-16 11:42:59 dev_log : [INFO] 准备点击 登 录
+2017-08-16 13:49:13 dev_log : [INFO] 连接appium服务器
+2017-08-16 13:53:00 dev_log : [INFO] 连接appium服务器
+2017-08-16 13:53:53 dev_log : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etPhone]
+2017-08-16 13:53:53 dev_log : [INFO] 输入之前控制字符为:输入手机号
+2017-08-16 13:53:58 dev_log : [INFO] 输入之后控制字符为:130 8888 4762
+2017-08-16 13:53:59 dev_log : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etVerify]
+2017-08-16 13:53:59 dev_log : [INFO] 输入之前控制字符为:获取验证码
+2017-08-16 13:54:04 dev_log : [INFO] 输入之后控制字符为:8888
+2017-08-16 13:54:04 dev_log : [INFO] [点击 -> id: com.icarbonx.meum:id/btn_login]
+2017-08-16 13:54:04 dev_log : [INFO] 准备点击 登 录
+2017-08-16 13:54:29 dev_log : [INFO] 连接appium服务器
+2017-08-16 14:01:27 dev_log : [INFO] 连接appium服务器
+2017-08-16 14:01:55 dev_log : [INFO] 准备点击 
+2017-08-16 14:01:57 dev_log : [INFO] 点击
+2017-08-16 14:01:58 dev_log : [INFO] 准备点击 
+2017-08-16 14:01:59 dev_log : [INFO] 点击
+2017-08-16 14:01:59 dev_log : [INFO] 准备点击 
+2017-08-16 14:02:02 dev_log : [INFO] 点击
+2017-08-16 14:03:29 dev_log : [INFO] 连接appium服务器
+2017-08-16 14:03:58 dev_log : [INFO] 准备点击 
+2017-08-16 14:03:59 dev_log : [INFO] 点击
+2017-08-16 14:03:59 dev_log : [INFO] 准备点击 
+2017-08-16 14:04:00 dev_log : [INFO] 点击
+2017-08-16 14:04:01 dev_log : [INFO] 准备点击 
+2017-08-16 14:04:03 dev_log : [INFO] 点击
+2017-08-16 14:17:20 dev_log : [INFO] 连接appium服务器
+2017-08-16 14:17:40 dev_log : [INFO] 连接appium服务器
+2017-08-16 14:18:06 dev_log : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etPhone]
+2017-08-16 14:18:06 dev_log : [INFO] 输入之前控制字符为:输入手机号
+2017-08-16 14:18:11 dev_log : [INFO] 输入之后控制字符为:130 8888 4762
+2017-08-16 14:18:12 dev_log : [INFO] [输入字符 -> id: com.icarbonx.meum:id/etVerify]
+2017-08-16 14:18:12 dev_log : [INFO] 输入之前控制字符为:获取验证码
+2017-08-16 14:18:17 dev_log : [INFO] 输入之后控制字符为:8888
+2017-08-16 14:18:17 dev_log : [INFO] [点击 -> id: com.icarbonx.meum:id/btn_login]
+2017-08-16 14:18:17 dev_log : [INFO] 准备点击 登 录

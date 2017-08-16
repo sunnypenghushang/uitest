@@ -18,10 +18,13 @@ import org.testng.annotations.BeforeTest;
 
 import com.icarbonx.baseutils.EventLog;
 import com.icarbonx.baseutils.ToolFunctions;
+import com.icarbonx.eventlistener.AlertListener;
+import com.icarbonx.eventlistener.ElementListener;
 import com.icarbonx.framework.BasePage;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.events.EventFiringWebDriverFactory;
 
 public class BaseTestCase {
 	
@@ -56,6 +59,8 @@ public class BaseTestCase {
 		capabilities.setCapability("noReset", true);//实现app不是每次都安装
 		try {
 			driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+			driver = EventFiringWebDriverFactory.getEventFiringWebDriver(driver, new AlertListener(),   
+				    new ElementListener());  
 		} catch (MalformedURLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

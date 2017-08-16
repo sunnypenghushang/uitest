@@ -55,11 +55,11 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		
+
 		<resources>
-		<resource>
-		<directory>src/config</directory>
-		</resource>
+			<resource>
+				<directory>src/config</directory>
+			</resource>
 		</resources>
 	</build>
 
@@ -127,9 +127,11 @@
 			<version>6.11</version>
 			<scope>compile</scope>
 		</dependency>
+
+
 	</dependencies>
-	
+
 	<properties>
-   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-</properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
 </project>

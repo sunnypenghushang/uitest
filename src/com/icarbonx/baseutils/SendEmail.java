@@ -17,7 +17,7 @@ import javax.mail.internet.*;
 import java.util.*;
 import javax.activation.*;
 
-public class SendTestReportEMS {
+public class SendEmail {
 	   private String host = ""; // smtp服务器
 	   private String from = ""; // 发件人地址
 	   private String to = ""; // 收件人地址

@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 46.04 sec - in TestSuite
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 1.906 sec <<< FAILURE! - in TestSuite
+setUp(com.icarbonx.testcase.LoginTestCase)  Time elapsed: 1.817 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: '2016-20170509XS', ip: '10.0.66.176', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: AndroidDriver
+	at com.icarbonx.testcase.LoginTestCase.setUp(LoginTestCase.java:38)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+	at com.icarbonx.testcase.LoginTestCase.setUp(LoginTestCase.java:38)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.icarbonx.testcase.LoginTestCase.setUp(LoginTestCase.java:38)
+
